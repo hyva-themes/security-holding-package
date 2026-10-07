@@ -11,9 +11,9 @@ Hyvä publishes its npm packages under the
 [`@hyva-themes`](https://www.npmjs.com/org/hyva-themes) scope, for example
 [`@hyva-themes/hyva-modules`](https://www.npmjs.com/package/@hyva-themes/hyva-modules).
 
-Hyvä Themes reserves the `@hyva` and `@hyvaio` scopes to protect the Hyvä community
-against name squatting and dependency confusion. Packages in these scopes are
-placeholders and contain no Hyvä software.
+Hyvä Themes reserves the `@hyva`, `@hyvaio` and `@hyva-commerce` scopes to protect
+the Hyvä community against name squatting and dependency confusion. Packages in these
+scopes are placeholders and contain no Hyvä software.
 
 If a build tried to install a package from one of these scopes, check for a typo in
 the package name or a misconfigured registry.

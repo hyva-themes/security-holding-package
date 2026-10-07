@@ -6,14 +6,14 @@
 # You log in to npm inside the container, and the login is discarded when it exits.
 #
 # Usage:
-#   ./publish.sh                          # publish to @hyva and @hyvaio
+#   ./publish.sh                          # publish to @hyva, @hyvaio and @hyva-commerce
 #   ./publish.sh --dry-run                # extra arguments are passed to npm publish
 #   SCOPES=hyvaio ./publish.sh            # publish to selected scopes only
 #   NODE_IMAGE=node:24-slim ./publish.sh  # use a different Node.js image
 
 set -euo pipefail
 
-SCOPES="${SCOPES:-hyva hyvaio}"
+SCOPES="${SCOPES:-hyva hyvaio hyva-commerce}"
 PACKAGE="about"
 NODE_IMAGE="${NODE_IMAGE:-node:24-slim}"
 
