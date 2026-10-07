@@ -1,0 +1,30 @@
+{
+  "name": "@hyva/about",
+  "version": "1.0.0",
+  "description": "Placeholder package of Hyvä Themes. It contains no code. Visit https://www.hyva.io",
+  "keywords": [
+    "hyva",
+    "hyva-themes",
+    "magento",
+    "magento2",
+    "adobe-commerce"
+  ],
+  "homepage": "https://www.hyva.io",
+  "bugs": {
+    "url": "https://github.com/hyva-themes/security-holding-package/issues",
+    "email": "security@hyva.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyva-themes/security-holding-package.git"
+  },
+  "license": "AFL-3.0",
+  "author": "Hyvä Themes B.V. <info@hyva.io> (https://www.hyva.io)",
+  "files": [
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
