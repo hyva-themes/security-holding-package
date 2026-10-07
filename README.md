@@ -1,9 +1,9 @@
 # Hyvä Themes
 
-This npm scope belongs to **[Hyvä Themes](https://www.hyva.io)**.
+This package name is held by **[Hyvä Themes](https://www.hyva.io)**.
 
-This package is an intentionally empty placeholder. It contains no code, has no
-dependencies and runs no install scripts. It only exists to show who owns this scope.
+It is an intentionally empty placeholder. It contains no code, has no dependencies and
+runs no install scripts.
 
 ## Looking for Hyvä packages on npm?
 
@@ -11,12 +11,24 @@ Hyvä publishes its npm packages under the
 [`@hyva-themes`](https://www.npmjs.com/org/hyva-themes) scope, for example
 [`@hyva-themes/hyva-modules`](https://www.npmjs.com/package/@hyva-themes/hyva-modules).
 
-Hyvä Themes reserves the `@hyva`, `@hyvaio` and `@hyva-commerce` scopes to protect
-the Hyvä community against name squatting and dependency confusion. Packages in these
-scopes are placeholders and contain no Hyvä software.
+If you installed this package by accident, check the package name for a missing
+`@hyva-themes/` prefix or a typo, and check your registry configuration.
 
-If a build tried to install a package from one of these scopes, check for a typo in
-the package name or a misconfigured registry.
+## Why Hyvä Themes holds this name
+
+Anyone who drops the `@hyva-themes/` prefix in `npm install`, or copies a broken snippet
+from documentation or a blog post, gets whatever is published under the shorter name.
+Whoever controlled these names could ship code to Hyvä users that way. Hyvä Themes holds
+them so that such a mistake installs this empty package instead:
+
+| Names                              | Match                                   |
+|------------------------------------|-----------------------------------------|
+| `@hyva`, `@hyvaio`                 | the Hyvä brand and the hyva.io domain   |
+| `@hyva-commerce`, `hyva-commerce`  | Hyvä Commerce                           |
+| `@hyva-checkout`, `hyva-checkout`  | Hyvä Checkout                           |
+| `@hyva-modules`, `hyva-modules`    | the `@hyva-themes/hyva-modules` package |
+
+Packages under these names are placeholders and contain no Hyvä software.
 
 ## About Hyvä
 
@@ -27,9 +39,10 @@ Our products include Hyvä Theme, Hyvä Checkout, Hyvä UI, Hyvä Commerce and H
 - Documentation: [docs.hyva.io](https://docs.hyva.io)
 - GitHub: [github.com/hyva-themes](https://github.com/hyva-themes)
 
-## Security
+## Contact
 
 Please report security issues to [security@hyva.io](mailto:security@hyva.io).
+For questions about these package names, contact [info@hyva.io](mailto:info@hyva.io).
 
 ## License
 
